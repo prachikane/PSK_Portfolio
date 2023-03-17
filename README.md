@@ -1,3 +1,4 @@
-# prachikane.github.io
-### Hi Prachi here.
-### I am trying to create my own portfolio to showcase my frontend skills.
+# Everything about Prachi
+Hi Prachi here.<br/>
+I am creating my own portfolio website to showcase my frontend skills.<br/>
+Thank you.
