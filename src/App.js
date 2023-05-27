@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Layout/>}/>
+        <Route path="/PSK_Portfolio" element={<Layout/>}/>
       </Routes>
     </>
   );
