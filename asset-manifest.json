@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/PSK_Repository/static/css/main.4704c6f2.css",
-    "main.js": "/PSK_Repository/static/js/main.5516594a.js",
-    "static/js/787.1f11dfe9.chunk.js": "/PSK_Repository/static/js/787.1f11dfe9.chunk.js",
-    "static/media/helvetica-neu.ttf": "/PSK_Repository/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/logo_sub.png": "/PSK_Repository/static/media/logo_sub.19f3ab25ab15fd848b30.png",
-    "static/media/LaBelleAurore.woff2": "/PSK_Repository/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/logo-s.png": "/PSK_Repository/static/media/logo-s.bfc9f81846bda5218dab.png",
-    "static/media/CoolveticaRg-Regular.woff2": "/PSK_Repository/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/PSK_Repository/index.html",
-    "main.4704c6f2.css.map": "/PSK_Repository/static/css/main.4704c6f2.css.map",
-    "main.5516594a.js.map": "/PSK_Repository/static/js/main.5516594a.js.map",
-    "787.1f11dfe9.chunk.js.map": "/PSK_Repository/static/js/787.1f11dfe9.chunk.js.map"
+    "main.css": "/PSK_Portfolio/static/css/main.4c097299.css",
+    "main.js": "/PSK_Portfolio/static/js/main.7a45ea7f.js",
+    "static/js/787.1f11dfe9.chunk.js": "/PSK_Portfolio/static/js/787.1f11dfe9.chunk.js",
+    "static/media/helvetica-neu.ttf": "/PSK_Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/logo_sub.png": "/PSK_Portfolio/static/media/logo_sub.19f3ab25ab15fd848b30.png",
+    "static/media/LaBelleAurore.woff2": "/PSK_Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/logo-s.png": "/PSK_Portfolio/static/media/logo-s.bfc9f81846bda5218dab.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/PSK_Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/PSK_Portfolio/index.html",
+    "main.4c097299.css.map": "/PSK_Portfolio/static/css/main.4c097299.css.map",
+    "main.7a45ea7f.js.map": "/PSK_Portfolio/static/js/main.7a45ea7f.js.map",
+    "787.1f11dfe9.chunk.js.map": "/PSK_Portfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4704c6f2.css",
-    "static/js/main.5516594a.js"
+    "static/css/main.4c097299.css",
+    "static/js/main.7a45ea7f.js"
   ]
 }
