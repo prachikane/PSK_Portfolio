@@ -2,7 +2,7 @@
   "name": "myportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://prachikane.github.io/PSK_Repository",
+  "homepage": "https://prachikane.github.io/PSK_Portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@fortawesome/free-brands-svg-icons": "^6.3.0",
