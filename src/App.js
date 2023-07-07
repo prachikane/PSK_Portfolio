@@ -1,12 +1,15 @@
 import './App.scss';
 import {Routes, Route} from 'react-router-dom';
-import Layout from '../src/components/Layout'
+import Home from './components/Home';
+import Layout from './components/Layout';
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/PSK_Portfolio" element={<Layout/>}/>
+        <Route path="/PSK_Portfolio" element={<Layout/>}>
+          <Route index element = {<Home/>} />
+        </Route>
       </Routes>
     </>
   );

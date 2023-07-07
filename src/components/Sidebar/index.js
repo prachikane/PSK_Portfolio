@@ -1,7 +1,7 @@
 import './index.scss';
 import {Link, NavLink} from 'react-router-dom';
-import LogoS from '../../assets/images/logo-s.png';
-import LogoSubtitle from '../../assets/images/logo_sub.png';
+import LogoS from '../../assets/images/psk-logo.png';
+import LogoSubtitle from '../../assets/images/prachi.png';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faEnvelope, faHome, faUser} from '@fortawesome/free-solid-svg-icons'
 import {faDev, faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
@@ -11,33 +11,33 @@ const Sidebar = () =>{
         <div className='nav-bar'>
             <Link className='logo' to='/'>
                 <img src={LogoS} alt="logo"></img>
-                <img className='sub-logo' src={LogoSubtitle} alt="logosub"></img>
+                <img src={LogoSubtitle} alt="logo"></img>
             </Link>
             <nav>
                 <NavLink exact="true" activeclassname="active" to="/">
-                    <FontAwesomeIcon icon={faHome} color="#4d4d4e"></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faHome} color="#d7cec7"></FontAwesomeIcon>
                 </NavLink>
                 <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
-                    <FontAwesomeIcon icon={faUser} color="#4d4d4e"></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faUser} color="#d7cec7"></FontAwesomeIcon>
                 </NavLink>
                 <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
-                    <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faEnvelope} color="#d7cec7"></FontAwesomeIcon>
                 </NavLink>
             </nav>
             <ul>
                 <li>
                     <a target="_blank" rel='noreferrer' href='http://www.linkedin.com/in/prachi-kane-b50134181'>
-                        <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"></FontAwesomeIcon>
+                        <FontAwesomeIcon icon={faLinkedin} color="#d7cec7"></FontAwesomeIcon>
                     </a>
                 </li>
                 <li>
                     <a target="_blank" rel='noreferrer' href='https://github.com/prachikane'>
-                        <FontAwesomeIcon icon={faGithub} color="#4d4d4e"></FontAwesomeIcon>
+                        <FontAwesomeIcon icon={faGithub} color="#d7cec7"></FontAwesomeIcon>
                     </a>
                 </li>
                 <li>
                     <a target="_blank" rel='noreferrer' href='https://devpost.com/pxk220024'>
-                        <FontAwesomeIcon icon={faDev} color="#4d4d4e"></FontAwesomeIcon>
+                        <FontAwesomeIcon icon={faDev} color="#d7cec7"></FontAwesomeIcon>
                     </a>
                 </li>
             </ul>
