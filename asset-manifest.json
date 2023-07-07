@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/PSK_Portfolio/static/css/main.4c097299.css",
-    "main.js": "/PSK_Portfolio/static/js/main.2aed669d.js",
+    "main.css": "/PSK_Portfolio/static/css/main.ea6710ed.css",
+    "main.js": "/PSK_Portfolio/static/js/main.32ff1cc4.js",
     "static/js/787.1f11dfe9.chunk.js": "/PSK_Portfolio/static/js/787.1f11dfe9.chunk.js",
+    "static/media/psk-logo.png": "/PSK_Portfolio/static/media/psk-logo.a7e9bb422c680207f350.png",
     "static/media/helvetica-neu.ttf": "/PSK_Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/logo_sub.png": "/PSK_Portfolio/static/media/logo_sub.19f3ab25ab15fd848b30.png",
     "static/media/LaBelleAurore.woff2": "/PSK_Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/logo-s.png": "/PSK_Portfolio/static/media/logo-s.bfc9f81846bda5218dab.png",
     "static/media/CoolveticaRg-Regular.woff2": "/PSK_Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/PSK_Portfolio/index.html",
-    "main.4c097299.css.map": "/PSK_Portfolio/static/css/main.4c097299.css.map",
-    "main.2aed669d.js.map": "/PSK_Portfolio/static/js/main.2aed669d.js.map",
+    "main.ea6710ed.css.map": "/PSK_Portfolio/static/css/main.ea6710ed.css.map",
+    "main.32ff1cc4.js.map": "/PSK_Portfolio/static/js/main.32ff1cc4.js.map",
     "787.1f11dfe9.chunk.js.map": "/PSK_Portfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c097299.css",
-    "static/js/main.2aed669d.js"
+    "static/css/main.ea6710ed.css",
+    "static/js/main.32ff1cc4.js"
   ]
 }
