@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/PSK_Portfolio/static/css/main.ea6710ed.css",
-    "main.js": "/PSK_Portfolio/static/js/main.32ff1cc4.js",
+    "main.css": "/PSK_Portfolio/static/css/main.8634489e.css",
+    "main.js": "/PSK_Portfolio/static/js/main.63fd6f4e.js",
     "static/js/787.1f11dfe9.chunk.js": "/PSK_Portfolio/static/js/787.1f11dfe9.chunk.js",
+    "static/media/profilepic.jpeg": "/PSK_Portfolio/static/media/profilepic.2643ad96edec90a15105.jpeg",
     "static/media/psk-logo.png": "/PSK_Portfolio/static/media/psk-logo.a7e9bb422c680207f350.png",
     "static/media/helvetica-neu.ttf": "/PSK_Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/PSK_Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/PSK_Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/PSK_Portfolio/index.html",
-    "main.ea6710ed.css.map": "/PSK_Portfolio/static/css/main.ea6710ed.css.map",
-    "main.32ff1cc4.js.map": "/PSK_Portfolio/static/js/main.32ff1cc4.js.map",
+    "main.8634489e.css.map": "/PSK_Portfolio/static/css/main.8634489e.css.map",
+    "main.63fd6f4e.js.map": "/PSK_Portfolio/static/js/main.63fd6f4e.js.map",
     "787.1f11dfe9.chunk.js.map": "/PSK_Portfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea6710ed.css",
-    "static/js/main.32ff1cc4.js"
+    "static/css/main.8634489e.css",
+    "static/js/main.63fd6f4e.js"
   ]
 }
