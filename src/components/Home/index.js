@@ -3,12 +3,12 @@ import {useState,useEffect} from 'react';
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/psk-logo.png';
 import './index.scss';
-import Profile from './Profile';
+import Logo from './Logo';
 
 const Home = () =>{
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['r','a','c','h','i']
-    const jobArray = ['C','o','m','p','u','t','e','r',' ','S','c','i','e','n','c','e']
+    const nameArray = ['P','r','a','c','h','i']
+    const jobArray = ['C','o','m','p','u','t','e','r',' ','S','c','i','e','n','c','e',' ','S','t','u','d','e','n','t']
     
     useEffect(()=>{
         setTimeout(() => {
@@ -27,8 +27,7 @@ const Home = () =>{
                     <br/>
                     <span className={`${letterClass} _12`}>I&nbsp;</span>
                     <span className={`${letterClass} _13`}>a</span>
-                    <span className={`${letterClass} _14`}>m</span>
-                    <img src={LogoTitle} alt="developer"/>
+                    <span className={`${letterClass} _14`}>m&nbsp;</span>
                     <AnimatedLetters 
                         letterClass={letterClass} 
                         strArray={nameArray}
@@ -40,11 +39,18 @@ const Home = () =>{
                         strArray={jobArray}
                         idx = {20}
                     />
+                    <br/>
+                    <AnimatedLetters 
+                        letterClass={letterClass} 
+                        strArray={['@',' ','U','T','D']}
+                        idx = {44}
+                    />
+                    <br/>
                 </h1>
-                <h2>Web Developement / Full Stack Development</h2>
+                <h2>Software Development / Web Development / Frontend Development</h2>
                 <Link to="/contact" className='flat-button'>Contact Me</Link>
             </div>
-            <Profile/>
+            <Logo/>
         </div>
     )
 }
