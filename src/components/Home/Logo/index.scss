@@ -3,14 +3,16 @@
     width: 30%;
     height: 100%;
     position:absolute;
+    justify-content: center;
+    align-content: center;
     top: 10%;
-    right:10%;
+    right:5%;
     bottom:0;
     left:auto;
     margin:auto;
 
     .solid-logo{
-        position: absolute;
+        position: relative;
         margin: auto;
         width: 100%;
         opacity:0.9;

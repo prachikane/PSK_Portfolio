@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 import {useState,useEffect} from 'react';
 import AnimatedLetters from '../AnimatedLetters'
-import LogoTitle from '../../assets/images/psk-logo.png';
 import './index.scss';
 import Logo from './Logo';
+import Loader from 'react-loaders'
 
 const Home = () =>{
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -19,6 +19,7 @@ const Home = () =>{
     
     
     return (
+        <>
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
@@ -52,6 +53,8 @@ const Home = () =>{
             </div>
             <Logo/>
         </div>
+        <Loader type='pacman'/>
+        </>
     )
 }
 export default Home;
