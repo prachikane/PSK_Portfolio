@@ -3,6 +3,7 @@ import './index.scss';
 import AnimatedLetters from './../AnimatedLetters';
 import { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser'
+//import {MapContainer,TileLayer, Marker, Popup} from 'https://cdn.esm.sh/react-leaflet'
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -14,11 +15,12 @@ const Contact = () => {
     },[])
 
     const sendEmail = (e) =>{
-        e.preventDefault();
+        e.preventDefault()
         emailjs.sendForm(
-            'service_nrnamou',
-            'template_x54da2y',
+            'service_islsrlj',
+            'template_h150ism',
             refForm.current,
+            'cLZRLd1fx2H9F4-1x'
         )
         .then(
             (result)=>{
@@ -55,10 +57,10 @@ const Contact = () => {
                         <form ref={refForm} onSubmit={sendEmail}>
                             <ul>
                                 <li className='half'>
-                                    <input type='text' name='name' placeholder='Name' required></input>
+                                    <input type='text' name='from_name' placeholder='Name' required></input>
                                 </li>
                                 <li className='half'>
-                                    <input type='email' name='email' placeholder='Email' required></input>
+                                    <input type='email' name='from_email' placeholder='Email' required></input>
                                 </li>
                                 <li>
                                     <input type='text' name='subject' placeholder='Subject' required></input>
@@ -73,6 +75,14 @@ const Contact = () => {
                         </form>
 
                     </div>
+                </div>
+                <div className='info-map'>
+                    Prachi Kane <br/>
+                    USA, <br/>
+                    7575 Frankford Rd, Dallas, Texas <br />
+                    <span>prachikaneus@gmail.com</span>
+                </div>
+                <div className='map-wrap'>
                 </div>
             </div>
             <Loader type="pacman"/>
